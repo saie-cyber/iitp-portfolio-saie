@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+
+        <div class="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+      <section id="hero">
+        <h1>Welcome to My Generative Portfolio</h1>
+
+        <p>
+          I am a software developer who loves building useful and beautiful
+          applications.
+        </p>
+
+        <button id="projectsBtn" class="btn">View My Projects</button>
+      </section>
+
+      <section class="layout-demo">
+        <aside class="sidebar">
+          <h3>Sidebar</h3>
+          <ul>
+            <li>Dashboard</li>
+            <li>Projects</li>
+            <li>Setting</li>
+          </ul>
+        </aside>
+        <div class="main-content">
+          <h2>Main Content</h2>
+          <p>
+            This is the main content area. You can add your articles, blog
+            posts, or any other content here.
+          </p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+          I enjoy working with web technologies and creating applications that
+          solve real-world problems.
+        </p>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+          <article class="card">
+            <h3>Weather App</h3>
+
+            <p>
+              A web application that displays real-time weather information.
+            </p>
+
+            <button class="btn">View Project</button>
+          </article>
+
+          <article class="card">
+            <h3>Task Manager</h3>
+
+            <p>A simple application for managing daily tasks and activities.</p>
+
+            <button class="btn">View Project</button>
+          </article>
+
+          <article class="card">
+            <h3>Expense Tracker</h3>
+
+            <p>An application for tracking personal expenses.</p>
+
+            <button class="btn">View Project</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <section>
+      <h2>Grid demo</h2>
+      <div class="grid-demo">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+        <div>Item 6</div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
