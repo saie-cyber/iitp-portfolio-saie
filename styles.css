@@ -26,6 +26,7 @@ h3 {
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  border: #111;
 }
 
 .card {
@@ -33,6 +34,7 @@ h3 {
   padding: 16px;
   margin: 12px;
   border: 1px solid #ddd;
+  border-radius: 8px;
 }
 
 * {
